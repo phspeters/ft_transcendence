@@ -7,7 +7,7 @@ const fastify = Fastify({
 
 // Register the CORS plugin
 await fastify.register(cors, { 
-  origin: "http://localhost:8443" // Allow requests from our frontend
+  origin: ["http://localhost:5173", "http://localhost:8443"]
 });
 
 // Example API route
