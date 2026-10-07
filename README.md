@@ -6,13 +6,13 @@ A modern web application featuring a classic Pong game. This project is built wi
 
 The application is managed entirely by Docker Compose, allowing for a seamless one-command setup for any developer.
 
--   **Frontend**: A Single-Page Application (SPA) built with TypeScript and Tailwind CSS. It handles all visuals, user interaction, and runs the Pong game logic entirely in the browser. It is served by a secure Nginx server configured for HTTPS.
+-   **Frontend**: A Single-Page Application (SPA) built with JavaScript and Tailwind CSS. It handles all visuals, user interaction, and runs the Pong game logic entirely in the browser. It is served by a secure Nginx server configured for HTTPS.
 
 -   **Backend**: A secure and efficient API server built with Node.js and Fastify. Its sole responsibilities are managing user accounts, authentication (JWT), and persisting game data to an SQLite database.
 
 ## Tech Stack
 
--   **Frontend**: TypeScript, Tailwind CSS
+-   **Frontend**: JavaScript, Tailwind CSS
 -   **Backend**: Node.js, Fastify
 -   **Database**: SQLite
 -   **Web Server**: Nginx
